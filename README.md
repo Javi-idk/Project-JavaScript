@@ -28,6 +28,6 @@ _Se solicita crear una carrito de compras, el cual debe ser desarrollado en base
  
  _Para visualizar la página puedes entrar a:_
  
- https://javi-idk.github.io/JavaScript-Project/
+ https://javi-idk.github.io/Project-JavaScript/
  
  ⌨️ con 🖤 por [Javi]
