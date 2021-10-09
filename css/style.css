@@ -1,0 +1,287 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------- HEADER --------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------*/
+.main-menu{
+    background: linear-gradient(0deg, rgba(238,190,174,0.692612079011292) 47%, rgba(192,235,185,0.6085784655659139) 100%), url(../img/food.png);
+}
+.line{
+    background-color: rgb(129, 87, 75);
+    height: 2.8px;
+}
+header div{
+    display: flex;
+    margin-right: 2%;
+    justify-content: flex-end;
+}
+.text-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 50px;
+    color: whitesmoke;
+    text-shadow: black 0.08em 0.08em 0.1em;
+}
+.logo{
+    height: 120px;
+    width: 120px;
+}
+#login{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------- SECCION CONTAINER 1 ----------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.section-page-1{
+    text-align: center;
+    background-color: rgb(241, 239, 239);
+    padding-bottom: 1%;
+}
+
+.section-page-1 .title-1{
+    font-size: 23px;
+    padding-top: 15px;
+}
+.pass{
+    display: inline-block;
+    list-style: none;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.credencial{
+    margin-top: 3px;
+}
+.credencial-2{
+    margin-bottom: 3px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------- SECCION CONTAINER 2 ----------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.section-page-2{
+    text-align: center;
+    background-color: rgb(241, 239, 239);
+    padding-top: 0.8%;
+    padding-bottom: 1%;
+}
+.section-page-2 .title-1{
+    font-size: 23px;
+    padding-top: 4%;
+}
+.container-2-general{
+    display: flex;
+}
+.parrafo{
+    padding-top: 2%;
+}
+/*---------------------------------------------------------------- BOX IMAGE -------------------------------------------------------------------*/
+
+.container-2-products{
+    margin:0;
+    width: 70%;
+}
+
+.container-2-img{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.section-photo{
+    width: 25%;
+    background-color: rgb(224, 222, 222);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #666;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+}
+.photo{
+    width: 80%;
+    margin-top: 8%;
+    border-radius: 6px;
+}
+.btn-buy{
+    margin-top: 2%;
+    background-color: rgb(153, 122, 114);
+    color: white;
+    padding: 6%;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.btn-buy:hover{
+    background-color: rgb(206, 135, 118);
+}
+.select-product{
+    margin-top: 4%;
+}
+
+/*---------------------------------------------------------------- SHOPPING CAR ------------------------------------------------------------------*/
+
+.container-shopping-car{
+    width: 30%;    
+}
+.section-shopping-car{
+    width: 90%;
+    background-color: rgb(224, 222, 222);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #666;
+    position: sticky;
+    top:5%;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+}
+.buying-car{
+    display: flex;
+    align-items: center;
+}
+.div-img{
+    margin-left: 30px;
+    width: 30%;
+    align-items: center;
+}
+.buying-detail{
+    margin-left: 5%;
+    text-align: left;
+}
+.photo-2{
+    width: 90%;
+    margin-top: 8%;
+    border-radius: 6px;
+}
+
+.div-login{
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.login{
+    justify-content: space-evenly;
+    padding-bottom: 1%;
+}
+.section-login .title-1{
+    padding-top: 3%;
+}
+.title-2{
+    padding-bottom: 3%;
+    font-size: 24px;
+}
+.section-buying .title-1{
+    padding-top: 3%;
+}
+.container-detail-payment{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.section-detail-payment{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.container-detail-payment .btn-buy{
+    height: 10px;
+    width: 250px;
+}
+
+.btn-buy-2{
+    margin-top: 2%;
+    background-color: rgb(153, 122, 114);
+    color: white;
+    padding: 3%;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.btn-buy-2:hover{
+    background-color: rgb(206, 135, 118);
+}
+.messagebuy{
+    display: flex;
+    flex-direction: column;
+}
+
+.textMessage{
+    padding-top: 12px;
+}
+
+.quantity-cart{
+    padding-top: 8px;
+}
+
+#shoppingCart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------- FOOTER ----------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.section-page-3{
+    background-color: rgb(241, 239, 239);
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+.btn-buy-3{
+    background-color: rgb(153, 122, 114);
+    color: white;
+    padding: 1%;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.btn-buy-2:hover{
+    background-color: rgb(206, 135, 118);
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------- FOOTER ----------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.footer{
+    background-color: rgb(129, 87, 75);
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-1{
+    margin-left: 3%;
+}
+.footer-2{
+    margin-right: 3%;
+}
+.favicon{
+    height: 45px;
+    width: 45px;
+}
+.div-favicon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.social-media{
+    margin-left: 2%;
+}

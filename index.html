@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" href="css/estilodemierda.css">-->
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="main-menu">
+    <nav>
+        <div>
+            <img src="img/logo.png" class="logo" onclick="location.href='index.html'">
+            <h1 class="text-header">Fast Shop</h1>
+        </div>
+    </nav>
+    <p class="line"></p>
+  </header>
+  <section class="section-page-1">
+      <h1 class="title-1" id="welcome">Bienvenido</h1>
+      <p class="parrafo">Las credenciales que usaremos son las siguientes:</p><br>
+          <ol class="pass">
+              <li class="credencial">Usuario: FirstUser</li>
+              <li class="credencial-2">Contraseña: My_Pass123</li>
+          </ol>
+  </section>
+  <section class="section-page-2" id="section-page-2">
+    <div class="title-2"> <h3>Nuestros Productos:</h3></div>
+    <div class="container-2-general" >
+        <div class="container-2-products">
+            <div class="container-2-img">
+            </div>
+            <div class="container-2-img" id="container-2-img-v2">
+            </div>
+            <div class="container-2-img" id="container-2-img-v3">
+            </div>
+        </div>
+        <div class="container-shopping-car"> 
+            <div class="section-shopping-car"> 
+                <p class="title-1" id="firstLogin">Inicio Sesión</p>
+                <form action="" method="POST" id="loginform">
+                    <div class="section-login">
+                        <div class="div-login">
+                            <div class="login">
+                                <label for="" id="label-user">Usuario:</label>
+                                <input type="user" name="user" id="user" ><span class="barra"></span>
+                            </div>
+                            <div class="login">
+                                <label for="" id="label-password">Contraseña:</label>
+                                <input type="password" name="password" id="password" ><span class="barra"></span>
+                            </div>
+                            <p id="warnings"></p>
+                            <button class="btn-buy-2" id="submit" type="submit">Iniciar Sesión</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="buy" style="visibility:visible">
+                    <div class="section-buying">
+                        <p class="title-1">Carro de Compras</p> 
+                        <hr>
+                        <div>
+                            <div id="shoppingCart"></div>
+                        </div>   
+                    <div class="container-detail-payment">
+                            <div class="section-detail-payment">
+                                <div class="div-detail-payment">
+                                    <p>Subtotal Compra: &dollar; <span id="subtotals"></span></p>
+                                    <p class="shipping-amount">Envío Compra: &dollar; <span id="shippingCost"></span></p> 
+                                    <p class="additional-amount">Recargo por producto: &dollar; <span id="additional"></span></p>
+                                    <p class="total-amount">Total Compra: &dollar; <span id="total-Amount"></span></p> <br>
+                                </div>
+                            </div>
+                            <div class="messageBuy">
+                              <button class="btn-buy-2" id="buyingBtn" >Realizar Compra</button>
+                              <p class="textMessage" id="detailMessage" ></p>
+                            </div>
+                              
+                        </div>         
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+  <section class="section-page-3">
+    <button class="btn-buy-3" id="restablishQuantity">Reestablecer valores</button>
+  </section>
+  <footer class="pie">
+    <div class="footer">
+      <div class="footer-1">
+        <p>Encuentranos en:</p>
+        <div class="footer-sm">
+          <div class="div-favicon">
+            <img class="favicon" src="img/fb.png">
+            <p class="social-media"> Fast Shop</p>
+          </div>
+        <div class="div-favicon">
+          <img class="favicon" src="img/insta.png">
+          <p class="social-media"> Fast Shop</p>
+        </div>
+      </div>
+      </div>
+      <div class="footer-2">
+        <p class="t">Todos los derechos reservados &copy; Fast Shop</p>
+      </div>
+    </div>
+  </footer>  
+
+ <script src="js/script.js"></script>
+
+   
+</body>
+</html>
